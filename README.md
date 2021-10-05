@@ -1,5 +1,8 @@
-This is a project for the 7shifts take home project
-It takes a string with numbers and special characters, splits the numbers from the string, converts the number string to actual numbers in a string and then return s the total
+This repo is for the 7shifts developer position take home project.
+
+* It takes a string with numbers and special characters, splits the numbers from the string.
+* Next, it converts the elements in the number string array to an actual number array
+* Finally it takes the number array and returns the total of all the numbers in the array.
 
 -- Negative numbers throw and error and shows the number(s) that triggered the error\
 -- Numbers greater than 1000 are ignored while adding\
