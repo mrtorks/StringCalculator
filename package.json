@@ -1,0 +1,25 @@
+{
+  "name": "7shiftproj",
+  "version": "1.0.0",
+  "description": "Project for adding numbers in a string",
+  "main": "start.js",
+  "type": "module",
+  "scripts": {
+    "simple-test": "node start",
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
+    "test-coverage": "node --experimental-vm-modules ./node_modules/.bin/jest --coverage"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "keywords": [
+    "String",
+    "Calculator",
+    "project"
+  ],
+  "author": "James Torkornoo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.4"
+  }
+}
